@@ -1,0 +1,22 @@
+# Quarantrois
+
+> Quarantrois SARL (Antananarivo, Madagascar) conçoit, développe et exploite des plateformes numériques et des systèmes d'intelligence artificielle pour les entreprises et les institutions. Le site est en français et en anglais, sur une seule page.
+
+## Ce que fait Quarantrois
+- Plateformes web et mobiles : conception, développement, maintenance.
+- Intelligence artificielle appliquée : assistants, lecture automatique de documents, analyse d'images et de données, intégrés aux outils existants.
+- Automatisation des processus.
+- Données et pilotage : tableaux de bord et indicateurs construits à partir des données réelles.
+- Exploitation et formation : hébergement, maintenance, évolutions, formation des utilisateurs.
+
+## Plateformes citées sur le site
+- [Zou](https://zou-mg.app): plateforme dédiée au droit (portée par Quarantrois).
+- [rano.mg](https://rano-mg.org): plateforme dédiée à l'eau potable, projet de l'ONG MSD ; Quarantrois en assure le développement et la maintenance.
+- [M'am Bee](https://mam-bee.app): site et boutique autour du miel de Madagascar (portée par Quarantrois).
+- [Envie de Madagascar](https://enviedemadagascar.com): guide pour découvrir Madagascar et préparer son voyage (portée par Quarantrois).
+- [CoinCoin](https://coincoin-mg.com): marketplace de petites annonces entre particuliers à Antananarivo (portée par Quarantrois, en bêta).
+- [Akaa Formations IA](https://formations.akaa.app): programme de formation à l'IA, avec le partenaire Akaa ; Quarantrois en assure la promotion et la commercialisation.
+- VitoByVitogaz : plateforme réalisée pour Vitogaz, qui en est propriétaire.
+
+## Contact
+rajo@quarantrois-madagascar.com — Antananarivo, Madagascar. Langues : français, anglais, malgache.
