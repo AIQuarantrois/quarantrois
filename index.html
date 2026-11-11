@@ -420,14 +420,28 @@ section{position:relative}
       <h2 id="ledger-title" data-i18n="ledger.title">Ce que nous faisons</h2>
       <p data-i18n="ledger.sub">De l'idée à l'exploitation, nous prenons en charge chaque étape, ou seulement celle dont vous avez besoin.</p>
     </div>
-    <div class="ledger" id="ledger"></div>
+    <div class="ledger" id="ledger"><div class="ledger-item" data-open="true">
+        <button type="button" aria-expanded="true" aria-controls="ex-0" id="exb-0"><h3>Plateformes web et mobiles</h3><span class="plus" aria-hidden="true"></span></button>
+        <div class="panel" id="ex-0" role="region" aria-labelledby="exb-0"><div><p>De la plateforme métier à l'application grand public : nous la concevons, la développons et la maintenons dans la durée.</p></div></div></div><div class="ledger-item" data-open="false">
+        <button type="button" aria-expanded="false" aria-controls="ex-1" id="exb-1"><h3>Intelligence artificielle appliquée</h3><span class="plus" aria-hidden="true"></span></button>
+        <div class="panel" id="ex-1" role="region" aria-labelledby="exb-1"><div><p>Assistants, lecture automatique de documents, analyse d'images et de données, intégrés à vos outils existants.</p></div></div></div><div class="ledger-item" data-open="false">
+        <button type="button" aria-expanded="false" aria-controls="ex-2" id="exb-2"><h3>Automatisation des processus</h3><span class="plus" aria-hidden="true"></span></button>
+        <div class="panel" id="ex-2" role="region" aria-labelledby="exb-2"><div><p>Les tâches répétitives confiées à la machine, pour que vos équipes se concentrent sur ce qui demande du jugement.</p></div></div></div><div class="ledger-item" data-open="false">
+        <button type="button" aria-expanded="false" aria-controls="ex-3" id="exb-3"><h3>Données et pilotage</h3><span class="plus" aria-hidden="true"></span></button>
+        <div class="panel" id="ex-3" role="region" aria-labelledby="exb-3"><div><p>Des tableaux de bord et des indicateurs fiables, construits à partir de vos données réelles.</p></div></div></div><div class="ledger-item" data-open="false">
+        <button type="button" aria-expanded="false" aria-controls="ex-4" id="exb-4"><h3>Exploitation et formation</h3><span class="plus" aria-hidden="true"></span></button>
+        <div class="panel" id="ex-4" role="region" aria-labelledby="exb-4"><div><p>Hébergement, maintenance, évolutions, et la formation des personnes qui utiliseront les outils.</p></div></div></div></div>
   </div>
 </section>
 
 <section class="sectors" id="secteurs" aria-labelledby="sectors-title">
   <div class="sectors-stage">
     <div class="wrap sectors-intro"><h2 id="sectors-title" data-i18n="sectors.title">Là où l'IA change le travail au quotidien</h2></div>
-    <div class="track" id="track"></div>
+    <div class="track" id="track"><article class="sector"><figure><div class="ph"><img src="/assets/sectors/rice.webp" alt="Agriculture" loading="lazy"><div class="stag b" style="left:19%;top:51%;width:20%;height:28%"><div class="box"></div><div class="lbl">riziculteur 0,97</div></div><div class="stag " style="left:1%;top:41%;width:52%;height:13%"><div class="box"></div><div class="lbl">rizière inondée, repiquage en cours</div></div><div class="stag r b" style="left:80%;top:3%;width:19%;height:25%"><div class="box"></div><div class="lbl">habitation 0,92</div></div></div>
+        <figcaption><strong>Agriculture</strong><span>Prévoir les rendements, suivre les parcelles, relier les producteurs aux marchés.</span></figcaption></figure></article><article class="sector"><figure><div class="ph"><img src="/assets/sectors/port.webp" alt="Logistique" loading="lazy"><div class="stag b" style="left:13%;top:46%;width:11%;height:38%"><div class="box"></div><div class="lbl">agent de quai 0,96</div></div><div class="stag b" style="left:38%;top:4%;width:11%;height:54%"><div class="box"></div><div class="lbl">grue en charge</div></div><div class="stag r" style="left:53%;top:22%;width:34%;height:42%"><div class="box"></div><div class="lbl">navire à quai 0,94</div></div></div>
+        <figcaption><strong>Logistique</strong><span>Suivre les flux, anticiper les retards, simplifier les formalités.</span></figcaption></figure></article><article class="sector"><figure><div class="ph"><img src="/assets/sectors/water.webp" alt="Eau et énergie" loading="lazy"><div class="stag " style="left:4%;top:32%;width:30%;height:24%"><div class="box"></div><div class="lbl">point d'eau, 4 robinets</div></div><div class="stag b" style="left:31%;top:15%;width:28%;height:54%"><div class="box"></div><div class="lbl">file d'attente : 4 personnes</div></div><div class="stag r" style="left:59%;top:40%;width:39%;height:50%"><div class="box"></div><div class="lbl">livraison : 7 bidons</div></div></div>
+        <figcaption><strong>Eau et énergie</strong><span>Organiser la distribution, mesurer la consommation, mieux servir chaque quartier.</span></figcaption></figure></article><article class="sector"><figure><div class="ph"><img src="/assets/sectors/office.webp" alt="Services publics" loading="lazy"><div class="stag " style="left:1%;top:10%;width:33%;height:85%"><div class="box"></div><div class="lbl">archives papier, non indexées</div></div><div class="stag b" style="left:41%;top:31%;width:16%;height:30%"><div class="box"></div><div class="lbl">traitement manuel</div></div><div class="stag r" style="left:55%;top:55%;width:14%;height:12%"><div class="box"></div><div class="lbl">formulaire détecté</div></div></div>
+        <figcaption><strong>Services publics</strong><span>Numériser les archives, accélérer les démarches, rendre l'information accessible.</span></figcaption></figure></article></div>
   </div>
 </section>
 
@@ -439,7 +453,7 @@ section{position:relative}
     </div>
     <table class="index">
       <thead><tr><th scope="col" data-i18n="work.c1">Plateforme</th><th scope="col" data-i18n="work.c2">Ce qu'elle fait</th><th scope="col" data-i18n="work.c3">Notre rôle</th><th scope="col" data-i18n="work.c4">Lien</th></tr></thead>
-      <tbody id="workRows"></tbody>
+      <tbody id="workRows"><tr><td>Zou</td><td>Plateforme dédiée au droit.</td><td><span class="role ">Portée par Quarantrois</span></td><td><a class="work-link" href="https://zou-mg.app" target="_blank" rel="noopener">Voir le site</a></td></tr><tr><td>rano.mg</td><td>Plateforme dédiée à l'eau potable, appelée à devenir une place de marché pour tous les professionnels du secteur à Antananarivo.</td><td><span class="role ">Portée avec nos partenaires</span></td><td><a class="work-link" href="https://rano-mg.org" target="_blank" rel="noopener">Voir le site</a></td></tr><tr><td>M'am Bee</td><td>Site et application autour du miel de Madagascar, avec une boutique en ligne de produits issus du miel.</td><td><span class="role ">Portée par Quarantrois</span></td><td><a class="work-link" href="https://mam-bee.app" target="_blank" rel="noopener">Voir le site</a></td></tr><tr><td>Envie de Madagascar</td><td>Guide pour découvrir Madagascar et préparer son voyage.</td><td><span class="role ">Portée par Quarantrois</span></td><td><a class="work-link" href="https://enviedemadagascar.com" target="_blank" rel="noopener">Voir le site</a></td></tr><tr><td>VitoByVitogaz</td><td>Plateforme conçue et développée pour Vitogaz, qui en est propriétaire.</td><td><span class="role client">Réalisation pour un client</span></td><td><a class="work-link" href="https://vitobyvitogaz.mg" target="_blank" rel="noopener">Je veux tester</a></td></tr><tr><td>Akaa Formations IA</td><td>Programme de formation à l'intelligence artificielle, porté avec notre partenaire Akaa. Quarantrois en assure la promotion et la commercialisation.</td><td><span class="role ">Portée avec nos partenaires</span></td><td><a class="work-link" href="https://formations.akaa.app" target="_blank" rel="noopener">Voir le site</a></td></tr><tr><td>CoinCoin</td><td>Marketplace de petites annonces, ouverte aux particuliers comme aux boutiques.</td><td><span class="role ">Portée par Quarantrois</span></td><td><a class="work-link" href="https://coincoin-mg.com" target="_blank" rel="noopener">Voir le site</a></td></tr></tbody>
     </table>
   </div>
 </section>
@@ -633,7 +647,7 @@ section{position:relative}
     $("#track").innerHTML = SECTORS.map(s => {
       const [t,d] = s[lang];
       const tg = s.tags.map(g => `<div class="stag ${g.c||""}" style="left:${g.x}%;top:${g.y}%;width:${g.w}%;height:${g.h}%"><div class="box"></div><div class="lbl">${g[lang]}</div></div>`).join("");
-      return `<article class="sector"><figure><div class="ph"><img src="${s.img}" alt="" loading="lazy">${tg}</div>
+      return `<article class="sector"><figure><div class="ph"><img src="${s.img}" alt="${t}" loading="lazy">${tg}</div>
         <figcaption><strong>${t}</strong><span>${d}</span></figcaption></figure></article>`;
     }).join("");
     $("#workRows").innerHTML = WORK.map(w => {
